@@ -1,0 +1,7 @@
+-- Minified 10 lines 5 time(s) in 0.051 seconds; https://discord.gg/threaded
+-- This file was generated with UnveilR 2.1.4 at discord.gg/threaded or discord.gg/aqfudJEEeE.
+local args = {...}
+khendepzai = "This script has an obfuscator by khen"
+for i, v in pairs(_G) do
+end
+error("[script]:2: attempt to call a nil value")
