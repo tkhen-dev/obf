@@ -1,0 +1,61 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local gui = Instance.new("ScreenGui")
+gui.ResetOnSpawn = false
+gui.Parent = player:WaitForChild("PlayerGui")
+
+local frame = Instance.new("Frame", gui)
+frame.Size = UDim2.new(0, 260, 0, 140)
+frame.Position = UDim2.new(0.5, -130, 0.5, -70)
+frame.AnchorPoint = Vector2.new(0.5, 0.5)
+frame.BackgroundTransparency = 0.15
+frame.BackgroundColor3 = Color3.fromRGB(30,30,30)
+frame.BorderSizePixel = 0
+frame.Visible = false
+
+local title = Instance.new("TextLabel", frame)
+title.Size = UDim2.new(1, 0, 0, 30)
+title.BackgroundTransparency = 1
+title.Text = "Simple GUI"
+title.TextColor3 = Color3.new(1,1,1)
+title.Font = Enum.Font.GothamBold
+title.TextSize = 18
+
+local btnToggle = Instance.new("TextButton", gui)
+btnToggle.Size = UDim2.new(0, 120, 0, 36)
+btnToggle.Position = UDim2.new(0, 12, 0, 12)
+btnToggle.Text = "Open GUI"
+btnToggle.Font = Enum.Font.Gotham
+btnToggle.TextSize = 16
+btnToggle.BackgroundColor3 = Color3.fromRGB(45,45,45)
+btnToggle.BorderSizePixel = 0
+btnToggle.TextColor3 = Color3.new(1,1,1)
+
+local close = Instance.new("TextButton", frame)
+close.Size = UDim2.new(0, 24, 0, 24)
+close.Position = UDim2.new(1, -28, 0, 4)
+close.Text = "✕"
+close.Font = Enum.Font.Gotham
+close.TextSize = 14
+close.BackgroundTransparency = 1
+close.TextColor3 = Color3.new(1,1,1)
+
+local info = Instance.new("TextLabel", frame)
+info.Size = UDim2.new(1, -16, 0, 70)
+info.Position = UDim2.new(0, 8, 0, 34)
+info.BackgroundTransparency = 1
+info.Text = "khen khen khen"
+info.TextWrapped = true
+info.TextColor3 = Color3.new(1,1,1)
+info.Font = Enum.Font.Gotham
+info.TextSize = 14
+
+btnToggle.MouseButton1Click:Connect(function()
+	frame.Visible = not frame.Visible
+	btnToggle.Text = frame.Visible and "Close GUI" or "Open GUI"
+end)
+
+close.MouseButton1Click:Connect(function()
+	frame.Visible = false
+	btnToggle.Text = "Open GUI"
+end)
