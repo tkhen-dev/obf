@@ -1,7 +1,28 @@
--- This file was generated with UnveilR 2.1.4 at discord.gg/threaded or discord.gg/aqfudJEEeE.
 local fenv = getfenv()
-local args = {...}
-khendepzai = "This script has an obfuscator."
-for i, v in pairs(_G) do
+local args_1 = {...}
+tkhen = "This script has an obfuscator by khen"
+local var1 = (getfenv and getfenv(0))
+while fenv["I am a dog"] do
+    if (fenv["I am a dog"] < 115) then
+        -- didnt run, expr id 1
+    end
+    if (fenv["I am a dog"] < 172) then
+        -- didnt run, expr id 2
+    end
+    if (fenv["I am a dog"] < 200) then
+        -- didnt run, expr id 3
+    end
+    if (fenv["I am a dog"] < 214) then
+        -- didnt run, expr id 4
+    end
+    if (fenv["I am a dog"] < 221) then
+        -- didnt run, expr id 5
+    end
+    if (fenv["I am a dog"] < 225) then
+        -- didnt run, expr id 6
+    end
+    if (fenv["I am a dog"] < 227) then
+        -- didnt run, expr id 7
+    end
 end
-error("[script]:2: attempt to call a nil value")
+error("/[internal]:1224: attempt to compare table < number")
