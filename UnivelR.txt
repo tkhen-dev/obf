@@ -1,63 +1,7 @@
--- Minified 79 lines 5 time(s) in 0.835 seconds; https://discord.gg/threaded
 -- This file was generated with UnveilR 2.1.4 at discord.gg/threaded or discord.gg/aqfudJEEeE.
 local fenv = getfenv()
-local args_14 = {...}
-khendepzai = "This script has an obfuscator by khen"
-local var1 = (getfenv and getfenv(0))
--- true
-if ("string" == table) then
-    -- ran, expr id 1
-    -- true
-    if ("string" == table) then
-        -- ran, expr id 2
-        -- true
-        if ("string" == table) then
-            -- ran, expr id 3
-            -- true
-            if ("string" == table) then
-                -- ran, expr id 4
-                -- true
-                if ("string" == table) then
-                    -- ran, expr id 5
-                    -- true
-                    if ("string" == table) then
-                        -- ran, expr id 6
-                        -- true
-                        if ("string" == table) then
-                            -- ran, expr id 7
-                            -- true
-                            if ("string" == table) then
-                                -- ran, expr id 8
-                                -- true
-                                if ("string" == table) then
-                                    -- ran, expr id 9
-                                    -- true
-                                    if ("string" == table) then
-                                        -- ran, expr id 10
-                                        -- true
-                                        if ("string" == table) then
-                                            -- ran, expr id 11
-                                            -- true
-                                            if ("string" == table) then
-                                                -- ran, expr id 12
-                                                -- true
-                                                if ("string" == table) then
-                                                -- ran, expr id 13
-                                                -- true
-                                                if ("string" == table) then
-                                                -- ran, expr id 14
-                                                end
-                                                end
-                                            end
-                                        end
-                                    end
-                                end
-                            end
-                        end
-                    end
-                end
-            end
-        end
-    end
+local args = {...}
+khendepzai = "This script has an obfuscator."
+for i, v in pairs(_G) do
 end
-error("/[internal]:1650: attempt to index nil with '^Jï¿½ï¿½ï¿½'")
+error("[script]:2: attempt to call a nil value")
