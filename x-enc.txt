@@ -1,0 +1,746 @@
+-- Raw Log File - x_enc
+-- Generated: 2025-11-03T07:20:50.232371558+00:00
+-- Total operations: 728
+
+-- STATISTICS --
+-- Total logs: 728
+-- Network requests: 0
+-- Security operations: 2
+-- Obfuscation operations: 0
+-- Remote calls: 0
+-- Loadstring calls: 0
+-- Unique URLs: 0
+-- Errors: 51
+
+-- FULL LOG --
+
+[1] [OTHER] global_write | key="khendepzai", value="This script has an obfuscator."
+[2] [OTHER] setmetatable | hasMetatable=true
+[3] [SECURITY] getfenv | level=1
+[4] [OTHER] newproxy | addMetatable=true
+[5] [OTHER] getmetatable | type="userdata"
+[6] [OTHER] newproxy | addMetatable=true
+[7] [OTHER] getmetatable | type="userdata"
+[8] [OTHER] newproxy | addMetatable=true
+[9] [OTHER] getmetatable | type="userdata"
+[10] [OTHER] newproxy | addMetatable=true
+[11] [OTHER] getmetatable | type="userdata"
+[12] [OTHER] setmetatable | hasMetatable=true
+[13] [OTHER] newproxy | addMetatable=true
+[14] [OTHER] getmetatable | type="userdata"
+[15] [OTHER] newproxy | addMetatable=true
+[16] [OTHER] getmetatable | type="userdata"
+[17] [OTHER] newproxy | addMetatable=true
+[18] [OTHER] getmetatable | type="userdata"
+[19] [OTHER] newproxy | addMetatable=true
+[20] [OTHER] getmetatable | type="userdata"
+[21] [OTHER] setmetatable | hasMetatable=true
+[22] [OTHER] newproxy | addMetatable=true
+[23] [OTHER] getmetatable | type="userdata"
+[24] [OTHER] newproxy | addMetatable=true
+[25] [OTHER] getmetatable | type="userdata"
+[26] [OTHER] newproxy | addMetatable=true
+[27] [OTHER] getmetatable | type="userdata"
+[28] [OTHER] newproxy | addMetatable=true
+[29] [OTHER] getmetatable | type="userdata"
+[30] [OTHER] newproxy | addMetatable=true
+[31] [OTHER] getmetatable | type="userdata"
+[32] [OTHER] pairs_loop_start | table={getclipboard = <function>, firesignal = <function>, tostring = <function>, makefolder = <function>, os = {date = <function>, difftime = <function>, time = <function>, clock = <function>}, clonefunction = <function>, setrawmetatable = <function>, bit32 = {band = <function>, extract = <function>, bxor = <function>, bor = <function>, bnot = <function>, btest = <function>, lrotate = <function>, countrz = <function>, lshift = <function>, rshift = <function>, rrotate = <function>, replace = <function>, arshift = <function>, byteswap = <function>, countlz = <function>}, debug = {traceback = <function>, info = <function>, resetmemorycategory = <function>, setmemorycategory = <function>, dumpcodesize = <function>, getmemorycategory = <function>}, hookmetamethod = <function>, assert = <function>, getexecutorname = <function>, tonumber = <function>, getrawmetatable = <function>, CatalogSearchParams = {new = <function>}, ...}
+[33] [OTHER] pairs_loop_end | 
+[34] [OTHER] newproxy | addMetatable=true
+[35] [OTHER] getmetatable | type="userdata"
+[36] [OTHER] newproxy | addMetatable=true
+[37] [OTHER] getmetatable | type="userdata"
+[38] [OTHER] newproxy | addMetatable=true
+[39] [OTHER] getmetatable | type="userdata"
+[40] [OTHER] newproxy | addMetatable=true
+[41] [OTHER] getmetatable | type="userdata"
+[42] [CONTROL_FLOW] pcall_start | id=1, fn_type="nil"
+[43] [CONTROL_FLOW] pcall_end | id=1, returns={"attempt to call a nil value"}, success=false, error="attempt to call a nil value"
+[44] [CONTROL_FLOW] pcall_start | id=2, fn_type="nil"
+[45] [CONTROL_FLOW] pcall_end | id=2, returns={"attempt to call a nil value"}, success=false, error="attempt to call a nil value"
+[46] [OTHER] getmetatable | type="table"
+[47] [OTHER] getmetatable | type="table"
+[48] [OTHER] getmetatable | type="nil"
+[49] [OTHER] getmetatable | type="nil"
+[50] [OTHER] getmetatable | type="nil"
+[51] [OTHER] getmetatable | type="nil"
+[52] [OTHER] getmetatable | type="table"
+[53] [OTHER] getmetatable | type="table"
+[54] [OTHER] newproxy | addMetatable=true
+[55] [OTHER] getmetatable | type="userdata"
+[56] [CONTROL_FLOW] pcall_start | id=3, fn_type="function"
+[57] [CONTROL_FLOW] pcall_end | id=3, returns={}, success=true
+[58] [OTHER] newproxy | addMetatable=true
+[59] [OTHER] getmetatable | type="userdata"
+[60] [CONTROL_FLOW] pcall_start | id=4, fn_type="function"
+[61] [CONTROL_FLOW] pcall_end | id=4, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[62] [OTHER] newproxy | addMetatable=true
+[63] [OTHER] getmetatable | type="userdata"
+[64] [CONTROL_FLOW] pcall_start | id=5, fn_type="function"
+[65] [CONTROL_FLOW] pcall_end | id=5, returns={[1] = 58, [2] = 1, [3] = 34, [4] = 230, [5] = 239, [6] = 26, [7] = 21, [8] = 5, [9] = 18, [10] = 144, [11] = 172, [12] = 255, [13] = 52, [14] = 72, [15] = 169, ...}, success=true
+[66] [OTHER] newproxy | addMetatable=true
+[67] [OTHER] getmetatable | type="userdata"
+[68] [CONTROL_FLOW] pcall_start | id=6, fn_type="function"
+[69] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:2258: attempt to index nil with 'randomString'", level=0
+[70] [CONTROL_FLOW] pcall_end | id=6, returns={"/home/container/temp/scripts/script_1762154449078.lua:2258: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2258: attempt to index nil with 'randomString'"
+[71] [OTHER] newproxy | addMetatable=true
+[72] [OTHER] getmetatable | type="userdata"
+[73] [CONTROL_FLOW] pcall_start | id=7, fn_type="function"
+[74] [CONTROL_FLOW] pcall_end | id=7, returns={[1] = 232, [2] = 132, [3] = 50, [4] = 3, [5] = 180, [6] = 236, [7] = 212, [8] = 128, [9] = 50, [10] = 48, [11] = 113, [12] = 15, [13] = 76, [14] = 124, [15] = 239, ...}, success=true
+[75] [OTHER] newproxy | addMetatable=true
+[76] [OTHER] getmetatable | type="userdata"
+[77] [CONTROL_FLOW] pcall_start | id=8, fn_type="function"
+[78] [OTHER] newproxy | addMetatable=true
+[79] [OTHER] getmetatable | type="userdata"
+[80] [CONTROL_FLOW] pcall_start | id=9, fn_type="function"
+[81] [CONTROL_FLOW] pcall_end | id=9, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[82] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:4841: attempt to index nil with 'randomString'", level=0
+[83] [CONTROL_FLOW] pcall_end | id=8, returns={"/home/container/temp/scripts/script_1762154449078.lua:4841: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:4841: attempt to index nil with 'randomString'"
+[84] [OTHER] newproxy | addMetatable=true
+[85] [OTHER] getmetatable | type="userdata"
+[86] [CONTROL_FLOW] pcall_start | id=10, fn_type="function"
+[87] [OTHER] newproxy | addMetatable=true
+[88] [OTHER] getmetatable | type="userdata"
+[89] [CONTROL_FLOW] pcall_start | id=11, fn_type="function"
+[90] [CONTROL_FLOW] pcall_end | id=11, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[91] [CONTROL_FLOW] pcall_end | id=10, returns={[1] = 226, [2] = 220, [3] = 210, [4] = 118, [5] = 0, [6] = 5, [7] = 71, [8] = 150, [9] = 43, [10] = 36, [11] = 104, [12] = 31, [13] = 20, [14] = 238, [15] = 29, ...}, success=true
+[92] [OTHER] newproxy | addMetatable=true
+[93] [OTHER] getmetatable | type="userdata"
+[94] [CONTROL_FLOW] pcall_start | id=12, fn_type="function"
+[95] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:680: attempt to index nil with 'randomString'", level=0
+[96] [CONTROL_FLOW] pcall_end | id=12, returns={"/home/container/temp/scripts/script_1762154449078.lua:680: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:680: attempt to index nil with 'randomString'"
+[97] [OTHER] newproxy | addMetatable=true
+[98] [OTHER] getmetatable | type="userdata"
+[99] [CONTROL_FLOW] pcall_start | id=13, fn_type="function"
+[100] [OTHER] newproxy | addMetatable=true
+[101] [OTHER] getmetatable | type="userdata"
+[102] [CONTROL_FLOW] pcall_start | id=14, fn_type="function"
+[103] [CONTROL_FLOW] pcall_end | id=14, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[104] [CONTROL_FLOW] pcall_end | id=13, returns={[1] = 209, [2] = 16, [3] = 205, [4] = 46, [5] = 94, [6] = 45, [7] = 218, [8] = 7, [9] = 190, [10] = 116, [11] = 141, [12] = 88, [13] = 5, [14] = 203, [15] = 1, ...}, success=true
+[105] [OTHER] newproxy | addMetatable=true
+[106] [OTHER] getmetatable | type="userdata"
+[107] [CONTROL_FLOW] pcall_start | id=15, fn_type="function"
+[108] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:4912: attempt to index nil with 'randomString'", level=0
+[109] [CONTROL_FLOW] pcall_end | id=15, returns={"/home/container/temp/scripts/script_1762154449078.lua:4912: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:4912: attempt to index nil with 'randomString'"
+[110] [OTHER] newproxy | addMetatable=true
+[111] [OTHER] getmetatable | type="userdata"
+[112] [CONTROL_FLOW] pcall_start | id=16, fn_type="function"
+[113] [CONTROL_FLOW] pcall_end | id=16, returns={[1] = 207, [2] = 45, [3] = 131, [4] = 201, [5] = 165, [6] = 146, [7] = 119, [8] = 74, [9] = 208, [10] = 9, [11] = 211, [12] = 103, [13] = 16, [14] = 94, [15] = 42, ...}, success=true
+[114] [OTHER] newproxy | addMetatable=true
+[115] [OTHER] getmetatable | type="userdata"
+[116] [CONTROL_FLOW] pcall_start | id=17, fn_type="function"
+[117] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:3144: attempt to index nil with 'randomString'", level=0
+[118] [CONTROL_FLOW] pcall_end | id=17, returns={"/home/container/temp/scripts/script_1762154449078.lua:3144: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:3144: attempt to index nil with 'randomString'"
+[119] [OTHER] newproxy | addMetatable=true
+[120] [OTHER] getmetatable | type="userdata"
+[121] [CONTROL_FLOW] pcall_start | id=18, fn_type="function"
+[122] [CONTROL_FLOW] pcall_end | id=18, returns={[1] = 34, [2] = 147, [3] = 15, [4] = 167, [5] = 54, [6] = 183, [7] = 249, [8] = 119, [9] = 75, [10] = 139, [11] = 31, [12] = 11, [13] = 227, [14] = 120, [15] = 165, ...}, success=true
+[123] [OTHER] newproxy | addMetatable=true
+[124] [OTHER] getmetatable | type="userdata"
+[125] [CONTROL_FLOW] pcall_start | id=19, fn_type="function"
+[126] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:6733: attempt to index nil with 'randomString'", level=0
+[127] [CONTROL_FLOW] pcall_end | id=19, returns={"/home/container/temp/scripts/script_1762154449078.lua:6733: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:6733: attempt to index nil with 'randomString'"
+[128] [OTHER] newproxy | addMetatable=true
+[129] [OTHER] getmetatable | type="userdata"
+[130] [CONTROL_FLOW] pcall_start | id=20, fn_type="function"
+[131] [CONTROL_FLOW] pcall_end | id=20, returns={[1] = 46, [2] = 218, [3] = 191, [4] = 4, [5] = 2, [6] = 202, [7] = 175, [8] = 245, [9] = 32, [10] = 107, [11] = 149, [12] = 28, [13] = 69, [14] = 13, [15] = 64, ...}, success=true
+[132] [OTHER] newproxy | addMetatable=true
+[133] [OTHER] getmetatable | type="userdata"
+[134] [CONTROL_FLOW] pcall_start | id=21, fn_type="function"
+[135] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:4220: attempt to index nil with 'randomString'", level=0
+[136] [CONTROL_FLOW] pcall_end | id=21, returns={"/home/container/temp/scripts/script_1762154449078.lua:4220: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:4220: attempt to index nil with 'randomString'"
+[137] [OTHER] newproxy | addMetatable=true
+[138] [OTHER] getmetatable | type="userdata"
+[139] [CONTROL_FLOW] pcall_start | id=22, fn_type="function"
+[140] [CONTROL_FLOW] pcall_end | id=22, returns={[1] = 115, [2] = 63, [3] = 181, [4] = 141, [5] = 178, [6] = 198, [7] = 11, [8] = 141, [9] = 163, [10] = 40, [11] = 79, [12] = 49, [13] = 132, [14] = 5, [15] = 11, ...}, success=true
+[141] [OTHER] newproxy | addMetatable=true
+[142] [OTHER] getmetatable | type="userdata"
+[143] [CONTROL_FLOW] pcall_start | id=23, fn_type="function"
+[144] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:3428: attempt to index nil with 'randomString'", level=0
+[145] [CONTROL_FLOW] pcall_end | id=23, returns={"/home/container/temp/scripts/script_1762154449078.lua:3428: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:3428: attempt to index nil with 'randomString'"
+[146] [OTHER] newproxy | addMetatable=true
+[147] [OTHER] getmetatable | type="userdata"
+[148] [CONTROL_FLOW] pcall_start | id=24, fn_type="function"
+[149] [OTHER] newproxy | addMetatable=true
+[150] [OTHER] getmetatable | type="userdata"
+[151] [CONTROL_FLOW] pcall_start | id=25, fn_type="function"
+[152] [CONTROL_FLOW] pcall_end | id=25, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[153] [CONTROL_FLOW] pcall_end | id=24, returns={[1] = 12, [2] = 17, [3] = 214, [4] = 172, [5] = 99, [6] = 16, [7] = 28, [8] = 119, [9] = 92, [10] = 122, [11] = 8, [12] = 244, [13] = 208, [14] = 140, [15] = 65, ...}, success=true
+[154] [OTHER] newproxy | addMetatable=true
+[155] [OTHER] getmetatable | type="userdata"
+[156] [CONTROL_FLOW] pcall_start | id=26, fn_type="function"
+[157] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7547: attempt to index nil with 'randomString'", level=0
+[158] [CONTROL_FLOW] pcall_end | id=26, returns={"/home/container/temp/scripts/script_1762154449078.lua:7547: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7547: attempt to index nil with 'randomString'"
+[159] [OTHER] newproxy | addMetatable=true
+[160] [OTHER] getmetatable | type="userdata"
+[161] [CONTROL_FLOW] pcall_start | id=27, fn_type="function"
+[162] [OTHER] newproxy | addMetatable=true
+[163] [OTHER] getmetatable | type="userdata"
+[164] [CONTROL_FLOW] pcall_start | id=28, fn_type="function"
+[165] [CONTROL_FLOW] pcall_end | id=28, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[166] [CONTROL_FLOW] pcall_end | id=27, returns={[1] = 105, [2] = 162, [3] = 223, [4] = 64, [5] = 217, [6] = 40, [7] = 167, [8] = 34, [9] = 102, [10] = 94, [11] = 149, [12] = 30, [13] = 167, [14] = 102, [15] = 214, ...}, success=true
+[167] [OTHER] newproxy | addMetatable=true
+[168] [OTHER] getmetatable | type="userdata"
+[169] [CONTROL_FLOW] pcall_start | id=29, fn_type="function"
+[170] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:3762: attempt to index nil with 'randomString'", level=0
+[171] [CONTROL_FLOW] pcall_end | id=29, returns={"/home/container/temp/scripts/script_1762154449078.lua:3762: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:3762: attempt to index nil with 'randomString'"
+[172] [OTHER] newproxy | addMetatable=true
+[173] [OTHER] getmetatable | type="userdata"
+[174] [CONTROL_FLOW] pcall_start | id=30, fn_type="function"
+[175] [OTHER] newproxy | addMetatable=true
+[176] [OTHER] getmetatable | type="userdata"
+[177] [CONTROL_FLOW] pcall_start | id=31, fn_type="function"
+[178] [CONTROL_FLOW] pcall_end | id=31, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[179] [CONTROL_FLOW] pcall_end | id=30, returns={[1] = 251, [2] = 22, [3] = 16, [4] = 162, [5] = 183, [6] = 9, [7] = 118, [8] = 254, [9] = 11, [10] = 160, [11] = 138, [12] = 216, [13] = 6, [14] = 71, [15] = 8, ...}, success=true
+[180] [OTHER] newproxy | addMetatable=true
+[181] [OTHER] getmetatable | type="userdata"
+[182] [CONTROL_FLOW] pcall_start | id=32, fn_type="function"
+[183] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:9993: attempt to index nil with 'randomString'", level=0
+[184] [CONTROL_FLOW] pcall_end | id=32, returns={"/home/container/temp/scripts/script_1762154449078.lua:9993: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:9993: attempt to index nil with 'randomString'"
+[185] [OTHER] newproxy | addMetatable=true
+[186] [OTHER] getmetatable | type="userdata"
+[187] [CONTROL_FLOW] pcall_start | id=33, fn_type="function"
+[188] [CONTROL_FLOW] pcall_end | id=33, returns={[1] = 11, [2] = 155, [3] = 124, [4] = 233, [5] = 45, [6] = 215, [7] = 135, [8] = 81, [9] = 235, [10] = 125, [11] = 83, [12] = 215, [13] = 121, [14] = 74, [15] = 64, ...}, success=true
+[189] [OTHER] newproxy | addMetatable=true
+[190] [OTHER] getmetatable | type="userdata"
+[191] [CONTROL_FLOW] pcall_start | id=34, fn_type="function"
+[192] [OTHER] newproxy | addMetatable=true
+[193] [OTHER] getmetatable | type="userdata"
+[194] [CONTROL_FLOW] pcall_start | id=35, fn_type="function"
+[195] [CONTROL_FLOW] pcall_end | id=35, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[196] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:765: attempt to index nil with 'randomString'", level=0
+[197] [CONTROL_FLOW] pcall_end | id=34, returns={"/home/container/temp/scripts/script_1762154449078.lua:765: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:765: attempt to index nil with 'randomString'"
+[198] [OTHER] newproxy | addMetatable=true
+[199] [OTHER] getmetatable | type="userdata"
+[200] [CONTROL_FLOW] pcall_start | id=36, fn_type="function"
+[201] [OTHER] newproxy | addMetatable=true
+[202] [OTHER] getmetatable | type="userdata"
+[203] [CONTROL_FLOW] pcall_start | id=37, fn_type="function"
+[204] [CONTROL_FLOW] pcall_end | id=37, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[205] [CONTROL_FLOW] pcall_end | id=36, returns={[1] = 33, [2] = 47, [3] = 138, [4] = 233, [5] = 99, [6] = 87, [7] = 51, [8] = 71, [9] = 67, [10] = 120, [11] = 44, [12] = 218, [13] = 248, [14] = 181, [15] = 173, ...}, success=true
+[206] [OTHER] newproxy | addMetatable=true
+[207] [OTHER] getmetatable | type="userdata"
+[208] [CONTROL_FLOW] pcall_start | id=38, fn_type="function"
+[209] [OTHER] newproxy | addMetatable=true
+[210] [OTHER] getmetatable | type="userdata"
+[211] [CONTROL_FLOW] pcall_start | id=39, fn_type="function"
+[212] [CONTROL_FLOW] pcall_end | id=39, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[213] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:8781: attempt to index nil with 'randomString'", level=0
+[214] [CONTROL_FLOW] pcall_end | id=38, returns={"/home/container/temp/scripts/script_1762154449078.lua:8781: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:8781: attempt to index nil with 'randomString'"
+[215] [OTHER] newproxy | addMetatable=true
+[216] [OTHER] getmetatable | type="userdata"
+[217] [CONTROL_FLOW] pcall_start | id=40, fn_type="function"
+[218] [OTHER] newproxy | addMetatable=true
+[219] [OTHER] getmetatable | type="userdata"
+[220] [CONTROL_FLOW] pcall_start | id=41, fn_type="function"
+[221] [CONTROL_FLOW] pcall_end | id=41, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[222] [CONTROL_FLOW] pcall_end | id=40, returns={[1] = 135, [2] = 253, [3] = 99, [4] = 233, [5] = 115, [6] = 165, [7] = 194, [8] = 2, [9] = 70, [10] = 84, [11] = 250, [12] = 30, [13] = 80, [14] = 16, [15] = 123, ...}, success=true
+[223] [OTHER] newproxy | addMetatable=true
+[224] [OTHER] getmetatable | type="userdata"
+[225] [CONTROL_FLOW] pcall_start | id=42, fn_type="function"
+[226] [OTHER] newproxy | addMetatable=true
+[227] [OTHER] getmetatable | type="userdata"
+[228] [CONTROL_FLOW] pcall_start | id=43, fn_type="function"
+[229] [CONTROL_FLOW] pcall_end | id=43, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[230] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7088: attempt to index nil with 'randomString'", level=0
+[231] [CONTROL_FLOW] pcall_end | id=42, returns={"/home/container/temp/scripts/script_1762154449078.lua:7088: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7088: attempt to index nil with 'randomString'"
+[232] [OTHER] newproxy | addMetatable=true
+[233] [OTHER] getmetatable | type="userdata"
+[234] [CONTROL_FLOW] pcall_start | id=44, fn_type="function"
+[235] [CONTROL_FLOW] pcall_end | id=44, returns={[1] = 78, [2] = 94, [3] = 239, [4] = 180, [5] = 196, [6] = 83, [7] = 112, [8] = 85, [9] = 188, [10] = 50, [11] = 38, [12] = 147, [13] = 172, [14] = 142, [15] = 227, ...}, success=true
+[236] [OTHER] newproxy | addMetatable=true
+[237] [OTHER] getmetatable | type="userdata"
+[238] [CONTROL_FLOW] pcall_start | id=45, fn_type="function"
+[239] [OTHER] newproxy | addMetatable=true
+[240] [OTHER] getmetatable | type="userdata"
+[241] [CONTROL_FLOW] pcall_start | id=46, fn_type="function"
+[242] [CONTROL_FLOW] pcall_end | id=46, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[243] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:8193: attempt to index nil with 'randomString'", level=0
+[244] [CONTROL_FLOW] pcall_end | id=45, returns={"/home/container/temp/scripts/script_1762154449078.lua:8193: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:8193: attempt to index nil with 'randomString'"
+[245] [OTHER] newproxy | addMetatable=true
+[246] [OTHER] getmetatable | type="userdata"
+[247] [CONTROL_FLOW] pcall_start | id=47, fn_type="function"
+[248] [OTHER] newproxy | addMetatable=true
+[249] [OTHER] getmetatable | type="userdata"
+[250] [CONTROL_FLOW] pcall_start | id=48, fn_type="function"
+[251] [CONTROL_FLOW] pcall_end | id=48, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[252] [CONTROL_FLOW] pcall_end | id=47, returns={[1] = 201, [2] = 241, [3] = 58, [4] = 58, [5] = 124, [6] = 170, [7] = 34, [8] = 78, [9] = 192, [10] = 135, [11] = 64, [12] = 57, [13] = 121, [14] = 76, [15] = 45, ...}, success=true
+[253] [OTHER] newproxy | addMetatable=true
+[254] [OTHER] getmetatable | type="userdata"
+[255] [CONTROL_FLOW] pcall_start | id=49, fn_type="function"
+[256] [OTHER] newproxy | addMetatable=true
+[257] [OTHER] getmetatable | type="userdata"
+[258] [CONTROL_FLOW] pcall_start | id=50, fn_type="function"
+[259] [CONTROL_FLOW] pcall_end | id=50, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[260] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7586: attempt to index nil with 'randomString'", level=0
+[261] [CONTROL_FLOW] pcall_end | id=49, returns={"/home/container/temp/scripts/script_1762154449078.lua:7586: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7586: attempt to index nil with 'randomString'"
+[262] [OTHER] newproxy | addMetatable=true
+[263] [OTHER] getmetatable | type="userdata"
+[264] [CONTROL_FLOW] pcall_start | id=51, fn_type="function"
+[265] [CONTROL_FLOW] pcall_end | id=51, returns={[1] = 236, [2] = 175, [3] = 167, [4] = 186, [5] = 53, [6] = 37, [7] = 211, [8] = 117, [9] = 26, [10] = 29, [11] = 5, [12] = 49, [13] = 240, [14] = 217, [15] = 56, ...}, success=true
+[266] [OTHER] newproxy | addMetatable=true
+[267] [OTHER] getmetatable | type="userdata"
+[268] [CONTROL_FLOW] pcall_start | id=52, fn_type="function"
+[269] [OTHER] newproxy | addMetatable=true
+[270] [OTHER] getmetatable | type="userdata"
+[271] [CONTROL_FLOW] pcall_start | id=53, fn_type="function"
+[272] [CONTROL_FLOW] pcall_end | id=53, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[273] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7677: attempt to index nil with 'randomString'", level=0
+[274] [CONTROL_FLOW] pcall_end | id=52, returns={"/home/container/temp/scripts/script_1762154449078.lua:7677: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7677: attempt to index nil with 'randomString'"
+[275] [OTHER] newproxy | addMetatable=true
+[276] [OTHER] getmetatable | type="userdata"
+[277] [CONTROL_FLOW] pcall_start | id=54, fn_type="function"
+[278] [OTHER] newproxy | addMetatable=true
+[279] [OTHER] getmetatable | type="userdata"
+[280] [CONTROL_FLOW] pcall_start | id=55, fn_type="function"
+[281] [CONTROL_FLOW] pcall_end | id=55, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[282] [CONTROL_FLOW] pcall_end | id=54, returns={[1] = 17, [2] = 168, [3] = 72, [4] = 46, [5] = 56, [6] = 1, [7] = 181, [8] = 25, [9] = 157, [10] = 85, [11] = 164, [12] = 49, [13] = 77, [14] = 110, [15] = 79, ...}, success=true
+[283] [OTHER] newproxy | addMetatable=true
+[284] [OTHER] getmetatable | type="userdata"
+[285] [CONTROL_FLOW] pcall_start | id=56, fn_type="function"
+[286] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:8592: attempt to index nil with 'randomString'", level=0
+[287] [CONTROL_FLOW] pcall_end | id=56, returns={"/home/container/temp/scripts/script_1762154449078.lua:8592: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:8592: attempt to index nil with 'randomString'"
+[288] [OTHER] newproxy | addMetatable=true
+[289] [OTHER] getmetatable | type="userdata"
+[290] [CONTROL_FLOW] pcall_start | id=57, fn_type="function"
+[291] [CONTROL_FLOW] pcall_end | id=57, returns={[1] = 229, [2] = 181, [3] = 92, [4] = 156, [5] = 98, [6] = 105, [7] = 13, [8] = 16, [9] = 186, [10] = 142, [11] = 137, [12] = 249, [13] = 230, [14] = 14, [15] = 158, ...}, success=true
+[292] [OTHER] newproxy | addMetatable=true
+[293] [OTHER] getmetatable | type="userdata"
+[294] [CONTROL_FLOW] pcall_start | id=58, fn_type="function"
+[295] [OTHER] newproxy | addMetatable=true
+[296] [OTHER] getmetatable | type="userdata"
+[297] [CONTROL_FLOW] pcall_start | id=59, fn_type="function"
+[298] [CONTROL_FLOW] pcall_end | id=59, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[299] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:4505: attempt to index nil with 'randomString'", level=0
+[300] [CONTROL_FLOW] pcall_end | id=58, returns={"/home/container/temp/scripts/script_1762154449078.lua:4505: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:4505: attempt to index nil with 'randomString'"
+[301] [OTHER] newproxy | addMetatable=true
+[302] [OTHER] getmetatable | type="userdata"
+[303] [CONTROL_FLOW] pcall_start | id=60, fn_type="function"
+[304] [CONTROL_FLOW] pcall_end | id=60, returns={[1] = 62, [2] = 136, [3] = 213, [4] = 79, [5] = 199, [6] = 65, [7] = 176, [8] = 76, [9] = 7, [10] = 41, [11] = 52, [12] = 255, [13] = 65, [14] = 100, [15] = 101, ...}, success=true
+[305] [OTHER] newproxy | addMetatable=true
+[306] [OTHER] getmetatable | type="userdata"
+[307] [CONTROL_FLOW] pcall_start | id=61, fn_type="function"
+[308] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:9876: attempt to index nil with 'randomString'", level=0
+[309] [CONTROL_FLOW] pcall_end | id=61, returns={"/home/container/temp/scripts/script_1762154449078.lua:9876: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:9876: attempt to index nil with 'randomString'"
+[310] [OTHER] newproxy | addMetatable=true
+[311] [OTHER] getmetatable | type="userdata"
+[312] [CONTROL_FLOW] pcall_start | id=62, fn_type="function"
+[313] [CONTROL_FLOW] pcall_end | id=62, returns={[1] = 43, [2] = 225, [3] = 36, [4] = 192, [5] = 172, [6] = 175, [7] = 195, [8] = 137, [9] = 32, [10] = 214, [11] = 24, [12] = 79, [13] = 68, [14] = 189, [15] = 99, ...}, success=true
+[314] [OTHER] newproxy | addMetatable=true
+[315] [OTHER] getmetatable | type="userdata"
+[316] [CONTROL_FLOW] pcall_start | id=63, fn_type="function"
+[317] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:9149: attempt to index nil with 'randomString'", level=0
+[318] [CONTROL_FLOW] pcall_end | id=63, returns={"/home/container/temp/scripts/script_1762154449078.lua:9149: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:9149: attempt to index nil with 'randomString'"
+[319] [OTHER] newproxy | addMetatable=true
+[320] [OTHER] getmetatable | type="userdata"
+[321] [CONTROL_FLOW] pcall_start | id=64, fn_type="function"
+[322] [CONTROL_FLOW] pcall_end | id=64, returns={[1] = 157, [2] = 110, [3] = 81, [4] = 5, [5] = 190, [6] = 19, [7] = 168, [8] = 3, [9] = 201, [10] = 12, [11] = 206, [12] = 221, [13] = 24, [14] = 96, [15] = 75, ...}, success=true
+[323] [OTHER] newproxy | addMetatable=true
+[324] [OTHER] getmetatable | type="userdata"
+[325] [CONTROL_FLOW] pcall_start | id=65, fn_type="function"
+[326] [OTHER] newproxy | addMetatable=true
+[327] [OTHER] getmetatable | type="userdata"
+[328] [CONTROL_FLOW] pcall_start | id=66, fn_type="function"
+[329] [CONTROL_FLOW] pcall_end | id=66, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[330] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:991: attempt to index nil with 'randomString'", level=0
+[331] [CONTROL_FLOW] pcall_end | id=65, returns={"/home/container/temp/scripts/script_1762154449078.lua:991: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:991: attempt to index nil with 'randomString'"
+[332] [OTHER] newproxy | addMetatable=true
+[333] [OTHER] getmetatable | type="userdata"
+[334] [CONTROL_FLOW] pcall_start | id=67, fn_type="function"
+[335] [CONTROL_FLOW] pcall_end | id=67, returns={[1] = 237, [2] = 3, [3] = 160, [4] = 148, [5] = 63, [6] = 145, [7] = 159, [8] = 176, [9] = 234, [10] = 87, [11] = 189, [12] = 65, [13] = 48, [14] = 170, [15] = 130, ...}, success=true
+[336] [OTHER] newproxy | addMetatable=true
+[337] [OTHER] getmetatable | type="userdata"
+[338] [CONTROL_FLOW] pcall_start | id=68, fn_type="function"
+[339] [OTHER] newproxy | addMetatable=true
+[340] [OTHER] getmetatable | type="userdata"
+[341] [CONTROL_FLOW] pcall_start | id=69, fn_type="function"
+[342] [CONTROL_FLOW] pcall_end | id=69, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[343] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7048: attempt to index nil with 'randomString'", level=0
+[344] [CONTROL_FLOW] pcall_end | id=68, returns={"/home/container/temp/scripts/script_1762154449078.lua:7048: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7048: attempt to index nil with 'randomString'"
+[345] [OTHER] newproxy | addMetatable=true
+[346] [OTHER] getmetatable | type="userdata"
+[347] [CONTROL_FLOW] pcall_start | id=70, fn_type="function"
+[348] [OTHER] newproxy | addMetatable=true
+[349] [OTHER] getmetatable | type="userdata"
+[350] [CONTROL_FLOW] pcall_start | id=71, fn_type="function"
+[351] [CONTROL_FLOW] pcall_end | id=71, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[352] [CONTROL_FLOW] pcall_end | id=70, returns={[1] = 209, [2] = 74, [3] = 212, [4] = 113, [5] = 250, [6] = 158, [7] = 155, [8] = 91, [9] = 29, [10] = 242, [11] = 250, [12] = 165, [13] = 230, [14] = 93, [15] = 182, ...}, success=true
+[353] [OTHER] newproxy | addMetatable=true
+[354] [OTHER] getmetatable | type="userdata"
+[355] [CONTROL_FLOW] pcall_start | id=72, fn_type="function"
+[356] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:5349: attempt to index nil with 'randomString'", level=0
+[357] [CONTROL_FLOW] pcall_end | id=72, returns={"/home/container/temp/scripts/script_1762154449078.lua:5349: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:5349: attempt to index nil with 'randomString'"
+[358] [OTHER] newproxy | addMetatable=true
+[359] [OTHER] getmetatable | type="userdata"
+[360] [CONTROL_FLOW] pcall_start | id=73, fn_type="function"
+[361] [OTHER] newproxy | addMetatable=true
+[362] [OTHER] getmetatable | type="userdata"
+[363] [CONTROL_FLOW] pcall_start | id=74, fn_type="function"
+[364] [CONTROL_FLOW] pcall_end | id=74, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[365] [CONTROL_FLOW] pcall_end | id=73, returns={[1] = 211, [2] = 52, [3] = 94, [4] = 20, [5] = 255, [6] = 244, [7] = 229, [8] = 157, [9] = 255, [10] = 243, [11] = 201, [12] = 135, [13] = 71, [14] = 166, [15] = 33, ...}, success=true
+[366] [OTHER] newproxy | addMetatable=true
+[367] [OTHER] getmetatable | type="userdata"
+[368] [CONTROL_FLOW] pcall_start | id=75, fn_type="function"
+[369] [OTHER] newproxy | addMetatable=true
+[370] [OTHER] getmetatable | type="userdata"
+[371] [CONTROL_FLOW] pcall_start | id=76, fn_type="function"
+[372] [CONTROL_FLOW] pcall_end | id=76, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[373] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:8094: attempt to index nil with 'randomString'", level=0
+[374] [CONTROL_FLOW] pcall_end | id=75, returns={"/home/container/temp/scripts/script_1762154449078.lua:8094: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:8094: attempt to index nil with 'randomString'"
+[375] [OTHER] newproxy | addMetatable=true
+[376] [OTHER] getmetatable | type="userdata"
+[377] [CONTROL_FLOW] pcall_start | id=77, fn_type="function"
+[378] [OTHER] newproxy | addMetatable=true
+[379] [OTHER] getmetatable | type="userdata"
+[380] [CONTROL_FLOW] pcall_start | id=78, fn_type="function"
+[381] [CONTROL_FLOW] pcall_end | id=78, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[382] [CONTROL_FLOW] pcall_end | id=77, returns={[1] = 156, [2] = 122, [3] = 193, [4] = 87, [5] = 8, [6] = 240, [7] = 134, [8] = 187, [9] = 137, [10] = 216, [11] = 230, [12] = 78, [13] = 38, [14] = 166, [15] = 35, ...}, success=true
+[383] [OTHER] newproxy | addMetatable=true
+[384] [OTHER] getmetatable | type="userdata"
+[385] [CONTROL_FLOW] pcall_start | id=79, fn_type="function"
+[386] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:2368: attempt to index nil with 'randomString'", level=0
+[387] [CONTROL_FLOW] pcall_end | id=79, returns={"/home/container/temp/scripts/script_1762154449078.lua:2368: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2368: attempt to index nil with 'randomString'"
+[388] [OTHER] newproxy | addMetatable=true
+[389] [OTHER] getmetatable | type="userdata"
+[390] [CONTROL_FLOW] pcall_start | id=80, fn_type="function"
+[391] [OTHER] newproxy | addMetatable=true
+[392] [OTHER] getmetatable | type="userdata"
+[393] [CONTROL_FLOW] pcall_start | id=81, fn_type="function"
+[394] [CONTROL_FLOW] pcall_end | id=81, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[395] [CONTROL_FLOW] pcall_end | id=80, returns={[1] = 129, [2] = 235, [3] = 242, [4] = 8, [5] = 76, [6] = 39, [7] = 60, [8] = 46, [9] = 179, [10] = 69, [11] = 121, [12] = 113, [13] = 198, [14] = 53, [15] = 27, ...}, success=true
+[396] [OTHER] newproxy | addMetatable=true
+[397] [OTHER] getmetatable | type="userdata"
+[398] [CONTROL_FLOW] pcall_start | id=82, fn_type="function"
+[399] [OTHER] newproxy | addMetatable=true
+[400] [OTHER] getmetatable | type="userdata"
+[401] [CONTROL_FLOW] pcall_start | id=83, fn_type="function"
+[402] [CONTROL_FLOW] pcall_end | id=83, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[403] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:4051: attempt to index nil with 'randomString'", level=0
+[404] [CONTROL_FLOW] pcall_end | id=82, returns={"/home/container/temp/scripts/script_1762154449078.lua:4051: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:4051: attempt to index nil with 'randomString'"
+[405] [OTHER] newproxy | addMetatable=true
+[406] [OTHER] getmetatable | type="userdata"
+[407] [CONTROL_FLOW] pcall_start | id=84, fn_type="function"
+[408] [OTHER] newproxy | addMetatable=true
+[409] [OTHER] getmetatable | type="userdata"
+[410] [CONTROL_FLOW] pcall_start | id=85, fn_type="function"
+[411] [CONTROL_FLOW] pcall_end | id=85, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[412] [CONTROL_FLOW] pcall_end | id=84, returns={[1] = 107, [2] = 145, [3] = 223, [4] = 230, [5] = 173, [6] = 224, [7] = 25, [8] = 47, [9] = 166, [10] = 54, [11] = 169, [12] = 214, [13] = 42, [14] = 84, [15] = 244, ...}, success=true
+[413] [OTHER] newproxy | addMetatable=true
+[414] [OTHER] getmetatable | type="userdata"
+[415] [CONTROL_FLOW] pcall_start | id=86, fn_type="function"
+[416] [OTHER] newproxy | addMetatable=true
+[417] [OTHER] getmetatable | type="userdata"
+[418] [CONTROL_FLOW] pcall_start | id=87, fn_type="function"
+[419] [CONTROL_FLOW] pcall_end | id=87, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[420] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:9544: attempt to index nil with 'randomString'", level=0
+[421] [CONTROL_FLOW] pcall_end | id=86, returns={"/home/container/temp/scripts/script_1762154449078.lua:9544: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:9544: attempt to index nil with 'randomString'"
+[422] [OTHER] newproxy | addMetatable=true
+[423] [OTHER] getmetatable | type="userdata"
+[424] [CONTROL_FLOW] pcall_start | id=88, fn_type="function"
+[425] [OTHER] newproxy | addMetatable=true
+[426] [OTHER] getmetatable | type="userdata"
+[427] [CONTROL_FLOW] pcall_start | id=89, fn_type="function"
+[428] [CONTROL_FLOW] pcall_end | id=89, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[429] [CONTROL_FLOW] pcall_end | id=88, returns={[1] = 161, [2] = 143, [3] = 131, [4] = 179, [5] = 98, [6] = 37, [7] = 135, [8] = 130, [9] = 44, [10] = 170, [11] = 219, [12] = 33, [13] = 195, [14] = 74, [15] = 56, ...}, success=true
+[430] [OTHER] newproxy | addMetatable=true
+[431] [OTHER] getmetatable | type="userdata"
+[432] [CONTROL_FLOW] pcall_start | id=90, fn_type="function"
+[433] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7166: attempt to index nil with 'randomString'", level=0
+[434] [CONTROL_FLOW] pcall_end | id=90, returns={"/home/container/temp/scripts/script_1762154449078.lua:7166: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7166: attempt to index nil with 'randomString'"
+[435] [OTHER] newproxy | addMetatable=true
+[436] [OTHER] getmetatable | type="userdata"
+[437] [CONTROL_FLOW] pcall_start | id=91, fn_type="function"
+[438] [CONTROL_FLOW] pcall_end | id=91, returns={[1] = 245, [2] = 168, [3] = 91, [4] = 49, [5] = 104, [6] = 96, [7] = 52, [8] = 227, [9] = 21, [10] = 213, [11] = 233, [12] = 127, [13] = 36, [14] = 244, [15] = 43, ...}, success=true
+[439] [OTHER] newproxy | addMetatable=true
+[440] [OTHER] getmetatable | type="userdata"
+[441] [CONTROL_FLOW] pcall_start | id=92, fn_type="function"
+[442] [OTHER] newproxy | addMetatable=true
+[443] [OTHER] getmetatable | type="userdata"
+[444] [CONTROL_FLOW] pcall_start | id=93, fn_type="function"
+[445] [CONTROL_FLOW] pcall_end | id=93, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[446] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:6730: attempt to index nil with 'randomString'", level=0
+[447] [CONTROL_FLOW] pcall_end | id=92, returns={"/home/container/temp/scripts/script_1762154449078.lua:6730: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:6730: attempt to index nil with 'randomString'"
+[448] [OTHER] newproxy | addMetatable=true
+[449] [OTHER] getmetatable | type="userdata"
+[450] [CONTROL_FLOW] pcall_start | id=94, fn_type="function"
+[451] [OTHER] newproxy | addMetatable=true
+[452] [OTHER] getmetatable | type="userdata"
+[453] [CONTROL_FLOW] pcall_start | id=95, fn_type="function"
+[454] [CONTROL_FLOW] pcall_end | id=95, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[455] [CONTROL_FLOW] pcall_end | id=94, returns={[1] = 76, [2] = 204, [3] = 4, [4] = 70, [5] = 149, [6] = 66, [7] = 143, [8] = 155, [9] = 151, [10] = 67, [11] = 115, [12] = 19, [13] = 85, [14] = 176, [15] = 68, ...}, success=true
+[456] [OTHER] newproxy | addMetatable=true
+[457] [OTHER] getmetatable | type="userdata"
+[458] [CONTROL_FLOW] pcall_start | id=96, fn_type="function"
+[459] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:1060: attempt to index nil with 'randomString'", level=0
+[460] [CONTROL_FLOW] pcall_end | id=96, returns={"/home/container/temp/scripts/script_1762154449078.lua:1060: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:1060: attempt to index nil with 'randomString'"
+[461] [OTHER] newproxy | addMetatable=true
+[462] [OTHER] getmetatable | type="userdata"
+[463] [CONTROL_FLOW] pcall_start | id=97, fn_type="function"
+[464] [CONTROL_FLOW] pcall_end | id=97, returns={[1] = 209, [2] = 85, [3] = 205, [4] = 187, [5] = 27, [6] = 141, [7] = 74, [8] = 48, [9] = 210, [10] = 137, [11] = 215, [12] = 113, [13] = 191, [14] = 156, [15] = 255, ...}, success=true
+[465] [OTHER] newproxy | addMetatable=true
+[466] [OTHER] getmetatable | type="userdata"
+[467] [CONTROL_FLOW] pcall_start | id=98, fn_type="function"
+[468] [OTHER] newproxy | addMetatable=true
+[469] [OTHER] getmetatable | type="userdata"
+[470] [CONTROL_FLOW] pcall_start | id=99, fn_type="function"
+[471] [CONTROL_FLOW] pcall_end | id=99, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[472] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:726: attempt to index nil with 'randomString'", level=0
+[473] [CONTROL_FLOW] pcall_end | id=98, returns={"/home/container/temp/scripts/script_1762154449078.lua:726: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:726: attempt to index nil with 'randomString'"
+[474] [OTHER] newproxy | addMetatable=true
+[475] [OTHER] getmetatable | type="userdata"
+[476] [CONTROL_FLOW] pcall_start | id=100, fn_type="function"
+[477] [OTHER] newproxy | addMetatable=true
+[478] [OTHER] getmetatable | type="userdata"
+[479] [CONTROL_FLOW] pcall_start | id=101, fn_type="function"
+[480] [CONTROL_FLOW] pcall_end | id=101, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[481] [CONTROL_FLOW] pcall_end | id=100, returns={[1] = 155, [2] = 31, [3] = 42, [4] = 116, [5] = 198, [6] = 214, [7] = 229, [8] = 241, [9] = 102, [10] = 188, [11] = 95, [12] = 212, [13] = 209, [14] = 7, [15] = 72, ...}, success=true
+[482] [OTHER] newproxy | addMetatable=true
+[483] [OTHER] getmetatable | type="userdata"
+[484] [CONTROL_FLOW] pcall_start | id=102, fn_type="function"
+[485] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7090: attempt to index nil with 'randomString'", level=0
+[486] [CONTROL_FLOW] pcall_end | id=102, returns={"/home/container/temp/scripts/script_1762154449078.lua:7090: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7090: attempt to index nil with 'randomString'"
+[487] [OTHER] newproxy | addMetatable=true
+[488] [OTHER] getmetatable | type="userdata"
+[489] [CONTROL_FLOW] pcall_start | id=103, fn_type="function"
+[490] [OTHER] newproxy | addMetatable=true
+[491] [OTHER] getmetatable | type="userdata"
+[492] [CONTROL_FLOW] pcall_start | id=104, fn_type="function"
+[493] [CONTROL_FLOW] pcall_end | id=104, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[494] [CONTROL_FLOW] pcall_end | id=103, returns={[1] = 221, [2] = 30, [3] = 18, [4] = 142, [5] = 63, [6] = 3, [7] = 193, [8] = 65, [9] = 223, [10] = 232, [11] = 151, [12] = 6, [13] = 138, [14] = 60, [15] = 46, ...}, success=true
+[495] [OTHER] newproxy | addMetatable=true
+[496] [OTHER] getmetatable | type="userdata"
+[497] [CONTROL_FLOW] pcall_start | id=105, fn_type="function"
+[498] [OTHER] newproxy | addMetatable=true
+[499] [OTHER] getmetatable | type="userdata"
+[500] [CONTROL_FLOW] pcall_start | id=106, fn_type="function"
+[501] [CONTROL_FLOW] pcall_end | id=106, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[502] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:6166: attempt to index nil with 'randomString'", level=0
+[503] [CONTROL_FLOW] pcall_end | id=105, returns={"/home/container/temp/scripts/script_1762154449078.lua:6166: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:6166: attempt to index nil with 'randomString'"
+[504] [OTHER] newproxy | addMetatable=true
+[505] [OTHER] getmetatable | type="userdata"
+[506] [CONTROL_FLOW] pcall_start | id=107, fn_type="function"
+[507] [CONTROL_FLOW] pcall_end | id=107, returns={[1] = 19, [2] = 118, [3] = 38, [4] = 242, [5] = 37, [6] = 225, [7] = 105, [8] = 200, [9] = 148, [10] = 74, [11] = 240, [12] = 25, [13] = 87, [14] = 69, [15] = 137, ...}, success=true
+[508] [OTHER] newproxy | addMetatable=true
+[509] [OTHER] getmetatable | type="userdata"
+[510] [CONTROL_FLOW] pcall_start | id=108, fn_type="function"
+[511] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:2619: attempt to index nil with 'randomString'", level=0
+[512] [CONTROL_FLOW] pcall_end | id=108, returns={"/home/container/temp/scripts/script_1762154449078.lua:2619: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2619: attempt to index nil with 'randomString'"
+[513] [OTHER] newproxy | addMetatable=true
+[514] [OTHER] getmetatable | type="userdata"
+[515] [CONTROL_FLOW] pcall_start | id=109, fn_type="function"
+[516] [OTHER] newproxy | addMetatable=true
+[517] [OTHER] getmetatable | type="userdata"
+[518] [CONTROL_FLOW] pcall_start | id=110, fn_type="function"
+[519] [CONTROL_FLOW] pcall_end | id=110, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[520] [CONTROL_FLOW] pcall_end | id=109, returns={[1] = 43, [2] = 123, [3] = 183, [4] = 54, [5] = 106, [6] = 217, [7] = 174, [8] = 232, [9] = 20, [10] = 46, [11] = 9, [12] = 115, [13] = 45, [14] = 70, [15] = 78, ...}, success=true
+[521] [OTHER] newproxy | addMetatable=true
+[522] [OTHER] getmetatable | type="userdata"
+[523] [CONTROL_FLOW] pcall_start | id=111, fn_type="function"
+[524] [OTHER] newproxy | addMetatable=true
+[525] [OTHER] getmetatable | type="userdata"
+[526] [CONTROL_FLOW] pcall_start | id=112, fn_type="function"
+[527] [CONTROL_FLOW] pcall_end | id=112, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[528] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7166: attempt to index nil with 'randomString'", level=0
+[529] [CONTROL_FLOW] pcall_end | id=111, returns={"/home/container/temp/scripts/script_1762154449078.lua:7166: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7166: attempt to index nil with 'randomString'"
+[530] [OTHER] newproxy | addMetatable=true
+[531] [OTHER] getmetatable | type="userdata"
+[532] [CONTROL_FLOW] pcall_start | id=113, fn_type="function"
+[533] [CONTROL_FLOW] pcall_end | id=113, returns={[1] = 42, [2] = 24, [3] = 237, [4] = 218, [5] = 3, [6] = 151, [7] = 165, [8] = 43, [9] = 232, [10] = 26, [11] = 31, [12] = 125, [13] = 102, [14] = 24, [15] = 17, ...}, success=true
+[534] [OTHER] newproxy | addMetatable=true
+[535] [OTHER] getmetatable | type="userdata"
+[536] [CONTROL_FLOW] pcall_start | id=114, fn_type="function"
+[537] [OTHER] newproxy | addMetatable=true
+[538] [OTHER] getmetatable | type="userdata"
+[539] [CONTROL_FLOW] pcall_start | id=115, fn_type="function"
+[540] [CONTROL_FLOW] pcall_end | id=115, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[541] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:6859: attempt to index nil with 'randomString'", level=0
+[542] [CONTROL_FLOW] pcall_end | id=114, returns={"/home/container/temp/scripts/script_1762154449078.lua:6859: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:6859: attempt to index nil with 'randomString'"
+[543] [OTHER] newproxy | addMetatable=true
+[544] [OTHER] getmetatable | type="userdata"
+[545] [CONTROL_FLOW] pcall_start | id=116, fn_type="function"
+[546] [CONTROL_FLOW] pcall_end | id=116, returns={[1] = 23, [2] = 173, [3] = 114, [4] = 133, [5] = 228, [6] = 121, [7] = 81, [8] = 96, [9] = 40, [10] = 42, [11] = 67, [12] = 35, [13] = 11, [14] = 163, [15] = 247, ...}, success=true
+[547] [OTHER] newproxy | addMetatable=true
+[548] [OTHER] getmetatable | type="userdata"
+[549] [CONTROL_FLOW] pcall_start | id=117, fn_type="function"
+[550] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:7150: attempt to index nil with 'randomString'", level=0
+[551] [CONTROL_FLOW] pcall_end | id=117, returns={"/home/container/temp/scripts/script_1762154449078.lua:7150: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:7150: attempt to index nil with 'randomString'"
+[552] [OTHER] newproxy | addMetatable=true
+[553] [OTHER] getmetatable | type="userdata"
+[554] [CONTROL_FLOW] pcall_start | id=118, fn_type="function"
+[555] [CONTROL_FLOW] pcall_end | id=118, returns={[1] = 201, [2] = 103, [3] = 71, [4] = 132, [5] = 30, [6] = 233, [7] = 90, [8] = 181, [9] = 55, [10] = 215, [11] = 167, [12] = 134, [13] = 187, [14] = 226, [15] = 240, ...}, success=true
+[556] [OTHER] newproxy | addMetatable=true
+[557] [OTHER] getmetatable | type="userdata"
+[558] [CONTROL_FLOW] pcall_start | id=119, fn_type="function"
+[559] [OTHER] newproxy | addMetatable=true
+[560] [OTHER] getmetatable | type="userdata"
+[561] [CONTROL_FLOW] pcall_start | id=120, fn_type="function"
+[562] [CONTROL_FLOW] pcall_end | id=120, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[563] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:463: attempt to index nil with 'randomString'", level=0
+[564] [CONTROL_FLOW] pcall_end | id=119, returns={"/home/container/temp/scripts/script_1762154449078.lua:463: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:463: attempt to index nil with 'randomString'"
+[565] [OTHER] newproxy | addMetatable=true
+[566] [OTHER] getmetatable | type="userdata"
+[567] [CONTROL_FLOW] pcall_start | id=121, fn_type="function"
+[568] [CONTROL_FLOW] pcall_end | id=121, returns={[1] = 144, [2] = 214, [3] = 175, [4] = 56, [5] = 221, [6] = 142, [7] = 77, [8] = 121, [9] = 251, [10] = 82, [11] = 38, [12] = 139, [13] = 93, [14] = 186, [15] = 125, ...}, success=true
+[569] [OTHER] newproxy | addMetatable=true
+[570] [OTHER] getmetatable | type="userdata"
+[571] [CONTROL_FLOW] pcall_start | id=122, fn_type="function"
+[572] [OTHER] newproxy | addMetatable=true
+[573] [OTHER] getmetatable | type="userdata"
+[574] [CONTROL_FLOW] pcall_start | id=123, fn_type="function"
+[575] [CONTROL_FLOW] pcall_end | id=123, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[576] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:9995: attempt to index nil with 'randomString'", level=0
+[577] [CONTROL_FLOW] pcall_end | id=122, returns={"/home/container/temp/scripts/script_1762154449078.lua:9995: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:9995: attempt to index nil with 'randomString'"
+[578] [OTHER] newproxy | addMetatable=true
+[579] [OTHER] getmetatable | type="userdata"
+[580] [CONTROL_FLOW] pcall_start | id=124, fn_type="function"
+[581] [OTHER] newproxy | addMetatable=true
+[582] [OTHER] getmetatable | type="userdata"
+[583] [CONTROL_FLOW] pcall_start | id=125, fn_type="function"
+[584] [CONTROL_FLOW] pcall_end | id=125, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[585] [CONTROL_FLOW] pcall_end | id=124, returns={[1] = 126, [2] = 20, [3] = 182, [4] = 189, [5] = 162, [6] = 90, [7] = 250, [8] = 226, [9] = 6, [10] = 47, [11] = 180, [12] = 98, [13] = 132, [14] = 254, [15] = 71, ...}, success=true
+[586] [OTHER] newproxy | addMetatable=true
+[587] [OTHER] getmetatable | type="userdata"
+[588] [CONTROL_FLOW] pcall_start | id=126, fn_type="function"
+[589] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:1630: attempt to index nil with 'randomString'", level=0
+[590] [CONTROL_FLOW] pcall_end | id=126, returns={"/home/container/temp/scripts/script_1762154449078.lua:1630: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:1630: attempt to index nil with 'randomString'"
+[591] [OTHER] newproxy | addMetatable=true
+[592] [OTHER] getmetatable | type="userdata"
+[593] [CONTROL_FLOW] pcall_start | id=127, fn_type="function"
+[594] [CONTROL_FLOW] pcall_end | id=127, returns={[1] = 212, [2] = 225, [3] = 130, [4] = 131, [5] = 5, [6] = 90, [7] = 135, [8] = 167, [9] = 204, [10] = 235, [11] = 86, [12] = 203, [13] = 104, [14] = 59, [15] = 116, ...}, success=true
+[595] [OTHER] newproxy | addMetatable=true
+[596] [OTHER] getmetatable | type="userdata"
+[597] [CONTROL_FLOW] pcall_start | id=128, fn_type="function"
+[598] [OTHER] newproxy | addMetatable=true
+[599] [OTHER] getmetatable | type="userdata"
+[600] [CONTROL_FLOW] pcall_start | id=129, fn_type="function"
+[601] [CONTROL_FLOW] pcall_end | id=129, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[602] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:6977: attempt to index nil with 'randomString'", level=0
+[603] [CONTROL_FLOW] pcall_end | id=128, returns={"/home/container/temp/scripts/script_1762154449078.lua:6977: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:6977: attempt to index nil with 'randomString'"
+[604] [OTHER] newproxy | addMetatable=true
+[605] [OTHER] getmetatable | type="userdata"
+[606] [CONTROL_FLOW] pcall_start | id=130, fn_type="function"
+[607] [OTHER] newproxy | addMetatable=true
+[608] [OTHER] getmetatable | type="userdata"
+[609] [CONTROL_FLOW] pcall_start | id=131, fn_type="function"
+[610] [CONTROL_FLOW] pcall_end | id=131, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[611] [CONTROL_FLOW] pcall_end | id=130, returns={[1] = 171, [2] = 6, [3] = 111, [4] = 59, [5] = 134, [6] = 151, [7] = 68, [8] = 233, [9] = 40, [10] = 64, [11] = 223, [12] = 85, [13] = 255, [14] = 59, [15] = 226, ...}, success=true
+[612] [OTHER] newproxy | addMetatable=true
+[613] [OTHER] getmetatable | type="userdata"
+[614] [CONTROL_FLOW] pcall_start | id=132, fn_type="function"
+[615] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:6934: attempt to index nil with 'randomString'", level=0
+[616] [CONTROL_FLOW] pcall_end | id=132, returns={"/home/container/temp/scripts/script_1762154449078.lua:6934: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:6934: attempt to index nil with 'randomString'"
+[617] [OTHER] newproxy | addMetatable=true
+[618] [OTHER] getmetatable | type="userdata"
+[619] [CONTROL_FLOW] pcall_start | id=133, fn_type="function"
+[620] [CONTROL_FLOW] pcall_end | id=133, returns={[1] = 114, [2] = 248, [3] = 136, [4] = 170, [5] = 93, [6] = 176, [7] = 119, [8] = 48, [9] = 146, [10] = 254, [11] = 4, [12] = 251, [13] = 116, [14] = 232, [15] = 58, ...}, success=true
+[621] [OTHER] newproxy | addMetatable=true
+[622] [OTHER] getmetatable | type="userdata"
+[623] [CONTROL_FLOW] pcall_start | id=134, fn_type="function"
+[624] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:458: attempt to index nil with 'randomString'", level=0
+[625] [CONTROL_FLOW] pcall_end | id=134, returns={"/home/container/temp/scripts/script_1762154449078.lua:458: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:458: attempt to index nil with 'randomString'"
+[626] [OTHER] newproxy | addMetatable=true
+[627] [OTHER] getmetatable | type="userdata"
+[628] [CONTROL_FLOW] pcall_start | id=135, fn_type="function"
+[629] [OTHER] newproxy | addMetatable=true
+[630] [OTHER] getmetatable | type="userdata"
+[631] [CONTROL_FLOW] pcall_start | id=136, fn_type="function"
+[632] [CONTROL_FLOW] pcall_end | id=136, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[633] [CONTROL_FLOW] pcall_end | id=135, returns={[1] = 152, [2] = 240, [3] = 177, [4] = 157, [5] = 83, [6] = 37, [7] = 244, [8] = 170, [9] = 118, [10] = 237, [11] = 34, [12] = 225, [13] = 235, [14] = 143, [15] = 16, ...}, success=true
+[634] [OTHER] newproxy | addMetatable=true
+[635] [OTHER] getmetatable | type="userdata"
+[636] [CONTROL_FLOW] pcall_start | id=137, fn_type="function"
+[637] [OTHER] newproxy | addMetatable=true
+[638] [OTHER] getmetatable | type="userdata"
+[639] [CONTROL_FLOW] pcall_start | id=138, fn_type="function"
+[640] [CONTROL_FLOW] pcall_end | id=138, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[641] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:1161: attempt to index nil with 'randomString'", level=0
+[642] [CONTROL_FLOW] pcall_end | id=137, returns={"/home/container/temp/scripts/script_1762154449078.lua:1161: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:1161: attempt to index nil with 'randomString'"
+[643] [OTHER] newproxy | addMetatable=true
+[644] [OTHER] getmetatable | type="userdata"
+[645] [CONTROL_FLOW] pcall_start | id=139, fn_type="function"
+[646] [CONTROL_FLOW] pcall_end | id=139, returns={[1] = 109, [2] = 246, [3] = 227, [4] = 234, [5] = 56, [6] = 81, [7] = 136, [8] = 34, [9] = 46, [10] = 176, [11] = 83, [12] = 224, [13] = 228, [14] = 122, [15] = 155, ...}, success=true
+[647] [OTHER] newproxy | addMetatable=true
+[648] [OTHER] getmetatable | type="userdata"
+[649] [CONTROL_FLOW] pcall_start | id=140, fn_type="function"
+[650] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:4061: attempt to index nil with 'randomString'", level=0
+[651] [CONTROL_FLOW] pcall_end | id=140, returns={"/home/container/temp/scripts/script_1762154449078.lua:4061: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:4061: attempt to index nil with 'randomString'"
+[652] [OTHER] newproxy | addMetatable=true
+[653] [OTHER] getmetatable | type="userdata"
+[654] [CONTROL_FLOW] pcall_start | id=141, fn_type="function"
+[655] [CONTROL_FLOW] pcall_end | id=141, returns={[1] = 19, [2] = 160, [3] = 116, [4] = 72, [5] = 106, [6] = 180, [7] = 253, [8] = 244, [9] = 252, [10] = 140, [11] = 51, [12] = 107, [13] = 56, [14] = 11, [15] = 197, ...}, success=true
+[656] [OTHER] newproxy | addMetatable=true
+[657] [OTHER] getmetatable | type="userdata"
+[658] [CONTROL_FLOW] pcall_start | id=142, fn_type="function"
+[659] [OTHER] newproxy | addMetatable=true
+[660] [OTHER] getmetatable | type="userdata"
+[661] [CONTROL_FLOW] pcall_start | id=143, fn_type="function"
+[662] [CONTROL_FLOW] pcall_end | id=143, returns={"/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to index nil with 'randomString'"
+[663] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:5719: attempt to index nil with 'randomString'", level=0
+[664] [CONTROL_FLOW] pcall_end | id=142, returns={"/home/container/temp/scripts/script_1762154449078.lua:5719: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:5719: attempt to index nil with 'randomString'"
+[665] [OTHER] newproxy | addMetatable=true
+[666] [OTHER] getmetatable | type="userdata"
+[667] [CONTROL_FLOW] pcall_start | id=144, fn_type="function"
+[668] [CONTROL_FLOW] pcall_end | id=144, returns={[1] = 141, [2] = 221, [3] = 3, [4] = 61, [5] = 174, [6] = 229, [7] = 142, [8] = 233, [9] = 185, [10] = 148, [11] = 112, [12] = 73, [13] = 173, [14] = 5, [15] = 177, ...}, success=true
+[669] [OTHER] newproxy | addMetatable=true
+[670] [OTHER] getmetatable | type="userdata"
+[671] [CONTROL_FLOW] pcall_start | id=145, fn_type="function"
+[672] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:1824: attempt to index nil with 'randomString'", level=0
+[673] [CONTROL_FLOW] pcall_end | id=145, returns={"/home/container/temp/scripts/script_1762154449078.lua:1824: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:1824: attempt to index nil with 'randomString'"
+[674] [OTHER] newproxy | addMetatable=true
+[675] [OTHER] getmetatable | type="userdata"
+[676] [CONTROL_FLOW] pcall_start | id=146, fn_type="function"
+[677] [CONTROL_FLOW] pcall_end | id=146, returns={[1] = 134, [2] = 75, [3] = 8, [4] = 248, [5] = 74, [6] = 200, [7] = 175, [8] = 57, [9] = 94, [10] = 143, [11] = 117, [12] = 93, [13] = 12, [14] = 60, [15] = 1, ...}, success=true
+[678] [OTHER] newproxy | addMetatable=true
+[679] [OTHER] getmetatable | type="userdata"
+[680] [CONTROL_FLOW] pcall_start | id=147, fn_type="function"
+[681] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:350: attempt to index nil with 'randomString'", level=0
+[682] [CONTROL_FLOW] pcall_end | id=147, returns={"/home/container/temp/scripts/script_1762154449078.lua:350: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:350: attempt to index nil with 'randomString'"
+[683] [OTHER] newproxy | addMetatable=true
+[684] [OTHER] getmetatable | type="userdata"
+[685] [CONTROL_FLOW] pcall_start | id=148, fn_type="function"
+[686] [CONTROL_FLOW] pcall_end | id=148, returns={[1] = 41, [2] = 0, [3] = 183, [4] = 210, [5] = 174, [6] = 205, [7] = 20, [8] = 20, [9] = 178, [10] = 174, [11] = 144, [12] = 24, [13] = 145, [14] = 156, [15] = 38, ...}, success=true
+[687] [OTHER] newproxy | addMetatable=true
+[688] [OTHER] getmetatable | type="userdata"
+[689] [CONTROL_FLOW] pcall_start | id=149, fn_type="function"
+[690] [OUTPUT] error | message="/home/container/temp/scripts/script_1762154449078.lua:3566: attempt to index nil with 'randomString'", level=0
+[691] [CONTROL_FLOW] pcall_end | id=149, returns={"/home/container/temp/scripts/script_1762154449078.lua:3566: attempt to index nil with 'randomString'"}, success=false, error="/home/container/temp/scripts/script_1762154449078.lua:3566: attempt to index nil with 'randomString'"
+[692] [OTHER] newproxy | addMetatable=true
+[693] [OTHER] getmetatable | type="userdata"
+[694] [OTHER] newproxy | addMetatable=true
+[695] [OTHER] getmetatable | type="userdata"
+[696] [OTHER] setmetatable | hasMetatable=true
+[697] [OTHER] newproxy | addMetatable=true
+[698] [OTHER] getmetatable | type="userdata"
+[699] [OTHER] newproxy | addMetatable=true
+[700] [OTHER] getmetatable | type="userdata"
+[701] [SECURITY] getfenv | level=1
+[702] [OTHER] newproxy | addMetatable=true
+[703] [OTHER] getmetatable | type="userdata"
+[704] [OTHER] newproxy | addMetatable=true
+[705] [OTHER] getmetatable | type="userdata"
+[706] [OTHER] newproxy | addMetatable=true
+[707] [OTHER] getmetatable | type="userdata"
+[708] [OTHER] newproxy | addMetatable=true
+[709] [OTHER] getmetatable | type="userdata"
+[710] [OTHER] newproxy | addMetatable=true
+[711] [OTHER] getmetatable | type="userdata"
+[712] [OTHER] newproxy | addMetatable=true
+[713] [OTHER] getmetatable | type="userdata"
+[714] [OTHER] newproxy | addMetatable=true
+[715] [OTHER] getmetatable | type="userdata"
+[716] [OTHER] newproxy | addMetatable=true
+[717] [OTHER] getmetatable | type="userdata"
+[718] [OTHER] newproxy | addMetatable=true
+[719] [OTHER] getmetatable | type="userdata"
+[720] [OTHER] newproxy | addMetatable=true
+[721] [OTHER] getmetatable | type="userdata"
+[722] [OTHER] newproxy | addMetatable=true
+[723] [OTHER] getmetatable | type="userdata"
+[724] [GAME_API] game_access | key="GetService"
+[725] [GAME_API] service_access | service="Players"
+[726] [INSTANCE] instance_new | hasParent=false, className="ScreenGui"
+[727] [GAME_API] workspace_property_set | key="ResetOnSpawn", value=false
+[728] [OUTPUT] execution_error | error="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to call a nil value", traceback="/home/container/temp/scripts/script_1762154449078.lua:2: attempt to call a nil value\n/home/container/temp/scripts/script_1762154449078.lua:2\n/home/container/temp/scripts/script_1762154449078.lua:2\n/home/container/temp/scripts/script_1762154449078.lua:2\n/home/container/temp/scripts/script_17621544490... [truncated, total: 973 chars]"
+
+-- End of raw log
