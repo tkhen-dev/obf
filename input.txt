@@ -161,3 +161,6 @@ coroutine.wrap(function()
         tween.Completed:Wait()
     end
 end)()
+
+local K = print
+K("done")
