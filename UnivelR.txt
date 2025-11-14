@@ -1,28 +1,9 @@
+-- This file was generated with UnveilR 2.1.5 at discord.gg/threaded or discord.gg/aqfudJEEeE (hookOp is off sadly).
 local fenv = getfenv()
-local args_1 = {...}
-tkhen = "This script has an obfuscator by khen"
-local var1 = (getfenv and getfenv(0))
-while fenv["I am a dog"] do
-    if (fenv["I am a dog"] < 115) then
-        -- didnt run, expr id 1
-    end
-    if (fenv["I am a dog"] < 172) then
-        -- didnt run, expr id 2
-    end
-    if (fenv["I am a dog"] < 200) then
-        -- didnt run, expr id 3
-    end
-    if (fenv["I am a dog"] < 214) then
-        -- didnt run, expr id 4
-    end
-    if (fenv["I am a dog"] < 221) then
-        -- didnt run, expr id 5
-    end
-    if (fenv["I am a dog"] < 225) then
-        -- didnt run, expr id 6
-    end
-    if (fenv["I am a dog"] < 227) then
-        -- didnt run, expr id 7
-    end
-end
-error("/[internal]:1224: attempt to compare table < number")
+local args1 = { ... }
+__khen__ = "ai hoi?"
+local var1 = select(1, args1[1], args1[2], args1[3], args1[4], args1[5], args1[6], args1[7], args1[8], args1[9], args1[10], args1[11], args1[12], args1[13], args1[14], args1[15], args1[16], args1[17], args1[18], args1[19], args1[20], args1[21], args1[22], args1[23], args1[24], args1[25], args1[26], args1[27], args1[28], args1[29], args1[30], args1[31], args1[32], args1[33], args1[34], args1[35], args1[36], args1[37], args1[38], args1[39], args1[40], args1[41], args1[42], args1[43], args1[44], args1[45], args1[46], args1[47], args1[48], args1[49], args1[50], ...)
+local var2 = select(1, args1[1])
+local var3 = type(debug)
+error("Tamper Detected!", nil) -- used by the script itself
+error("/[internal]: Tamper Detected!") -- Internal Error
